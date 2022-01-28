@@ -9,8 +9,7 @@ const MongoClient = require('mongodb').MongoClient
 
 
 
-// Creating app function from the express functional constructor to use it for creating
-// server and apis
+// Creating app function from the express functional constructor to use it for creating server and apis
 const app = express()
 
 // Enabling body-Parser with urlencoded form data to be true
