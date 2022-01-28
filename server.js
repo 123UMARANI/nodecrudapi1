@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.set('view engine' , 'ejs')
 
 // Database Connection String
-const connectionString ="mongodb+srv://chaithra13:chaithu13@cluster0.fiuey.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const connectionString ="mongodb+srv://umarani123:uma123@cluster0.l6oh3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 // Connecting the database
 MongoClient.connect(connectionString,{useUnifiedTopology:true})
